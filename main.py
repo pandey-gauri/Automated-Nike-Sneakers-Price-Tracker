@@ -43,7 +43,7 @@ if money < BUY_PRICE:
         connection.starttls()
         result = connection.login("gauri22pandey@gmail.com", "qdanxmcbdeldetac")
         connection.sendmail(
-            from_addr="gauri22pandey@gmail.com",
-            to_addrs="ankitsinghraj0607@gmail.com",
+            from_addr="YOUR_EMAIL",
+            to_addrs="RECIPIENT_EMAIL",
             msg=f"Subject:Nike Sneakers Price Alert!\n\n{message}\n{url}".encode("utf-8")
         )
